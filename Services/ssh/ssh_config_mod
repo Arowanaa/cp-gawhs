@@ -5,7 +5,8 @@
 # See the sshd_config(5) manpage for details
 
 AllowTcpForwarding yes
-ClientAliveCountMax 2
+ClientAliveInterval 360
+ClientAliveCountMax 0
 Compression no
 MaxSessions 2
 AllowAgentForwarding no
